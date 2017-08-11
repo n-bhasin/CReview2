@@ -13,6 +13,7 @@
         android:layout_height="wrap_content"
         android:hint="Search Customer.."
         android:layout_marginTop="0dp"
+        android:filterTouchesWhenObscured="true"
         android:drawableRight="@android:drawable/ic_menu_search"/>
 
     <ListView

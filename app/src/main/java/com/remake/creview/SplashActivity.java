@@ -17,16 +17,6 @@ public class SplashActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
 
-        DisplayMetrics displayMetrics = new DisplayMetrics();
-        getWindowManager().getDefaultDisplay().getMetrics(displayMetrics);
-        int height = displayMetrics.heightPixels;
-        int width = displayMetrics.widthPixels;
-        int h = 1280;
-        int w = 800;
-        if(height == h && width == w){
-            setContentView(R.layout.activity_splash);
-        }
-
         sharedPreferences = getSharedPreferences("activate",MODE_PRIVATE);
         editor = sharedPreferences.edit();
         handler.sendEmptyMessageDelayed(420,3000);

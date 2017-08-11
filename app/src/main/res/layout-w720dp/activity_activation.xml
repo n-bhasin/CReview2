@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
     android:padding="16dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
     android:background="@color/colorText"
+    android:layout_height="match_parent"
     tools:context="com.remake.creview.ActivationActivity">
-
 
     <TextView
         android:id="@+id/textView"
@@ -19,7 +17,7 @@
         android:textSize="30dp"
         android:textColor="@color/colorHeading"
         android:layout_gravity="center"
-        android:layout_marginTop="20dp"/>
+        android:layout_marginTop="350dp"/>
 
     <EditText
         android:id="@+id/editTextProKey"
@@ -29,7 +27,6 @@
         android:layout_marginTop="25dp"
         android:layout_gravity="center"
         android:textSize="18dp"
-        android:textAlignment="center"
         android:inputType="textPassword" />
 
     <Button
@@ -38,6 +35,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
         android:text="SUBMIT"
+        android:textSize="24dp"
         android:letterSpacing="0.24"
         android:background="@color/colorPrimary"
         android:textColor="@color/colorText"
