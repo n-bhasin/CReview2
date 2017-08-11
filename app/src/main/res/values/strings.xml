@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CReview</string>
+    <string name="make_you_happy"><u>Did We Make Your Happy?</u></string>
+    <string name="personal_details"><u>Personal Details</u></string>
+    <string name="please_rate_us"><u>Please Rate Us</u></string>
+    <string name="enter_your_product_key"><u>Enter Your Product Key</u></string>
+</resources>

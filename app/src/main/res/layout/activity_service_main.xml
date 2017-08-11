@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorText"
+    tools:context="com.remake.creview.ServiceMainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/make_you_happy"
+            android:textSize="22dp"
+            android:textColor="@color/colorHeading"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/textViewQualityQues"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How would you rate the quality of the food?"
+            android:layout_marginTop="20dp"
+            android:textSize="15dp"
+            android:textColor="@color/colorHeading"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <RadioButton
+                android:id="@+id/radioButtonQE"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Excellent"
+                android:textSize="15dp"
+                />
+
+            <RadioButton
+                android:id="@+id/radioButtonQG"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Good" />
+
+            <RadioButton
+                android:id="@+id/radioButtonQA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Average" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textViewServiceQues"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How would you rate the quality of the Service?"
+            android:layout_marginTop="5dp"
+            android:textSize="15dp"
+            android:textColor="@color/colorHeading"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <RadioButton
+                android:id="@+id/radioButtonSE"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Excellent"
+                android:textSize="15dp"/>
+
+            <RadioButton
+                android:id="@+id/radioButtonSG"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Good" />
+
+            <RadioButton
+                android:id="@+id/radioButtonSA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Average" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textViewCleanQues"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How would you rate the cleanliness of the facility?"
+            android:layout_marginTop="5dp"
+            android:textSize="15dp"
+            android:textColor="@color/colorHeading"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <RadioButton
+                android:id="@+id/radioButtonCE"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Excellent"
+                android:textSize="15dp"/>
+
+            <RadioButton
+                android:id="@+id/radioButtonCG"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Good" />
+
+            <RadioButton
+                android:id="@+id/radioButtonCA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Average" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/buttonNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NEXT"
+            android:padding="10dp"
+            android:letterSpacing="0.25"
+            android:layout_gravity="end"
+            android:layout_marginTop="0dp"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/colorText"/>
+
+    </LinearLayout>
+</ScrollView>
